@@ -1,0 +1,80 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  /* Background image */
+  background-image: url('laptop.jpg');
+}
+
+.bgimg {
+  box-sizing: border-box;
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: 'Courier New', Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+
+  background: rgba(0, 0, 0, 0.4) !important;
+  /* Full-screen */
+
+  border: 4px solid white;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  letter-spacing: 1.5px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-weight: bold;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.6em;
+  font-family: 'Poiret One', cursive;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+/* font-family: 'Amatic SC', cursive;
+
+font-family: 'Cutive Mono', monospace;
+
+font-family: 'Poiret One', cursive;
+
+font-family: 'Shadows Into Light', cursive;
+
+font-family: 'Square Peg', cursive; */
