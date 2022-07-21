@@ -10,6 +10,7 @@ html {
   box-sizing: border-box;
   /* Background image */
   background-image: url('laptop.jpg');
+  background-size: cover;
 }
 
 .bgimg {
@@ -40,6 +41,7 @@ html {
   top: 10px;
   left: 16px;
   letter-spacing: 1.5px;
+  font-size: 0.8em;
   font-family: 'Shadows Into Light', cursive;
 }
 
@@ -48,7 +50,8 @@ html {
   position: absolute;
   bottom: 16px;
   left: 16px;
-  font-weight: bold;
+  font-size: 0.8em;
+  /* font-weight: bold; */
   font-family: 'Cutive Mono', monospace;
 }
 
@@ -59,7 +62,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-family: 'Poiret One', cursive;
 }
 
